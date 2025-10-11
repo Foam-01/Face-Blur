@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Face Detection (Angular) - Demo</h2>
+  <input type="file" (change)="onFileChange($event)" accept="image/*" />
+
+  <div class="image-preview" *ngIf="selectedImage">
+    <div class="image-wrapper">
+      <img [src]="selectedImage" id="preview" (load)="onImageLoad($event)" />
+      <div
+        *ngFor="let face of faces"
+        class="face-box"
+        [style.left.px]="face.x"
+        [style.top.px]="face.y"
+        [style.width.px]="face.width"
+        [style.height.px]="face.height"
+      ></div>
+    </div>
+  </div>
+</div>

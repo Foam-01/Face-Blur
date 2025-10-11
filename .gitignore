@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+dist/
+.env
+
+# OS / Temporary
+.DS_Store
+Thumbs.db
+
+# Large media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.pdf
+*.docx
+*.zip
+*.rar
+*.7z

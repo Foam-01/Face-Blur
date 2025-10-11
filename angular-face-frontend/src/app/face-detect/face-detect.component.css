@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.image-wrapper img {
+  max-width: 600px;
+  border-radius: 8px;
+  display: block;
+}
+
+.face-box {
+  position: absolute;
+  border: 3px solid rgba(16,185,129,0.9);
+  box-shadow: 0 0 8px rgba(16,185,129,0.25);
+  pointer-events: none;
+}
